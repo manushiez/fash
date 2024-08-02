@@ -70,10 +70,10 @@ section {
 
 .model-container img {
     position: absolute;
-    /* Temporarily remove opacity and transform for debugging */
+ 
     opacity: 0.6;
-    /* transform: scale(0.3) rotate(10deg); */
-    width: 150px; /* Set a specific width for visibility */
+
+    width: 150px; 
     height: auto;
 }
 
