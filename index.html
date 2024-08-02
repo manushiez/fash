@@ -86,7 +86,7 @@
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
 
     <script>
-        // Initialize GSAP timeline with ScrollTrigger
+ 
         const slider = document.querySelector('.slider');
         const sections = gsap.utils.toArray('.slider section');
         const modelImages = gsap.utils.toArray('.model-container img');
@@ -102,7 +102,7 @@
         });
 
         tl.to(slider, {
-            xPercent: -100 * (sections.length - 1) // Move to the left by the width of all sections minus one
+            xPercent: -100 * (sections.length - 1) 
         }, "<");
 
         sections.forEach((stop, index) => {
